@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 oct. 2016, 10:41:51
+    Author     : admin
+*/
+
+body {
+    background-color: cadetblue;
+}
+
+/*div:nth-child(n+5) {
+    text-align: center;
+}*/
+.titre, .menu, .contenu, .pied {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    color: burlywood;
+    text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.titre { 
+    font-family: cursive;
+    font-size: 2.5em;
+    -webkit-text-stroke: 1px black;
+
+    background-image: url('../image/titre.jpg');
+}
+
+.menu { 
+    border-color: red;
+    border-style: dotted;
+    border-width: 3px 0px 3px 0px;
+}
+
+.contenu { 
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 5%;
+    background-image: url('../image/dshort.png');
+    //background-position-x: 64%;
+    height: 200px;
+    width: 200px;
+}
+
+.pied { 
+    font-family: fantasy;
+    font-size: 2.2em;
+    -webkit-text-stroke: 1px black;
+
+
+    background-image: url('../image/ballon.png');
+    background-position-x: 34%;
+    height: '50';
+}
